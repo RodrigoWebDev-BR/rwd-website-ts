@@ -1,44 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+ RodrigoWebDev
+ 
+    Segundo Projeto || Sobre o Projeto
+          
+    Página do site pessoal https://rodrigowebdev.com.br. Deve-se manter links interno e externos
+    cards com projetos feitos, utilização de icones do react, implematação de dark-mode/light-mode,
+    foto de perfil e tabela - caso não pense em algo mais atraente e interessante-.
+    Links externos devem abrir outra aba como no site recente. Criar um formulário para envio de e-mails.
+    Tratar responsividade mobile, tablet, laptoop/desktop... O máximo de @media querys possível.
+    Adicionar .houvers nos menu de navegação. Criar uma logo.
+              
+    OBS: 1º esse é o segundo projeto a ser feito, porém será o último á ir para deploy/produção.
+    2º Quando subir no gitHub ele deve ficar privado.
+    3º Deve haver o .ReadMe do projeto contendo detalhes do projeto, o que foi feito, o que foi implementado,
+    o que foi planejado e não foi possível implemetar, etc...
+    4º Adicionar o site ao https://search.google.com/search-console/welcome para que possa ser melhor visto nos motores
+    de buscas - Google mais precisamente.
 
-In the project directory, you can run:
+    O que mais me deu trablaho foi a configuração para setar as cores do dark mode/light mode. O Typescript não
+    reconhecia a propriedade 'colors'. Solução encontrada:
 
-### `yarn start`
+    https://blog.agney.dev/styled-components-&-typescript/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Não consigui fazer a troca de temas... 
+    Posteriormente quando atualizar o site posso implementar o dark mode/light mode e um form no lugar do e-mail direto.
+    por enquanto é isso.
