@@ -127,12 +127,12 @@ export default function() {
                         Nascido na cidade de Araçatuba, e criado no município de Birigui no noroeste paulista, <br/>
                         sou Rodrigo, tenho 31 anos. <br/>
                         Curto animações japonesas, mais conhecidas como animes, tais como Shingeki no Kyojin, <br/>
-                        Akame ga Kill, Elfen Lied, Death Note, Black Lagon, Vinland Saga, e por ai vai. <br />
+                        Akame ga Kill, Elfen Lied, Death Note, Black Lagon, Vinland Saga, entre outras. <br />
                         Sou um, vamos assim que se dizem... 'fiel seguidor do metal' - apesar de já ter passado <br/>
-                        por essa fase mas ouço só rock, não apenas metal. Bandas como Lamb of God, Arch Enemy, <br/>
-                        Bullet for My Valentine, Jinjer, Shadowside, Iced Earth, dentre muitas outras. <br/>
+                        por essa fase, mas ouço só rock, não apenas metal. Bandas como Lamb of God, Arch Enemy, <br/>
+                        Bullet for My Valentine, Jinjer, Shadowside, Iced Earth, enfim... inúmeras bandas. <br/>
                         Estudei no Instituto Federal de Educação, Ciências e Tecnologia do Estado de São Paulo, <br/>
-                        mais conhecido como IFSP ou apenas IF, mas não consegui concluí o curso por motivos pessoais.
+                        mais conhecido como IFSP ou apenas IF, mas não consegui concluir o curso por motivos pessoais.
                     </td>
                 </tr>
                 { getItemsTable }
