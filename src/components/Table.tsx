@@ -71,13 +71,14 @@ const gitHub = [{
 const rwd = [{
     id: 1,
     text: "Rodrigo Cruz Candido",
-    link: "rodrigowebdev.com.br"
+    link: "https://rodrigowebdev.com.br/",
+    textLink: "rodrigowebdev.com.br"
 }]
 
 const getLinkRwd = rwd.map((item) =>
     <tr>
         <th colSpan={2}>
-            <a href={item.link}>{item.link}</a>
+            <a href={item.link}>{item.textLink}</a>
         </th>
     </tr>
 )

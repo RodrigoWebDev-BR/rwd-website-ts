@@ -41,7 +41,7 @@ const listItems = [
 const getLinks = listItems.map((item) =>
     <p key={item.id}>
         {item.text}
-        <a href={item.link}>{item.textLink}</a>
+        <a href={item.link} target={item.link}>{item.textLink}</a>
     </p>
 )  
 
