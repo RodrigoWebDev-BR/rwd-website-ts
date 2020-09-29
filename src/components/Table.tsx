@@ -132,9 +132,7 @@ export default function() {
                         por essa fase mas ouço só rock, não apenas metal. Bandas como Lamb of God, Arch Enemy, <br/>
                         Bullet for My Valentine, Jinjer, Shadowside, Iced Earth, dentre muitas outras. <br/>
                         Estudei no Instituto Federal de Educação, Ciências e Tecnologia do Estado de São Paulo, <br/>
-                        mais conhecido como IFSP ou apenas IF. Não consegui concluí o curso por vários motivos, <br/>
-                        um deles algumas disciplinas que teria que passar por elas de qualquer jeito, e cai entre nós <br/>
-                        não estava muito afim dessas matérias.
+                        mais conhecido como IFSP ou apenas IF, mas não consegui concluí o curso por motivos pessoais.
                     </td>
                 </tr>
                 { getItemsTable }
