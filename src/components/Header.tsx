@@ -64,7 +64,7 @@ export default function Header() {
                 <StyledSwitch>
                 <Switch
                     onChange={ toggleTheme }
-                    checked={ theme === 'dark' }
+                    checked={ theme === 'light' }
                     checkedIcon={ false }
                     uncheckedIcon={ false }
                     height={ 30 }
