@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-// import Switch from 'react-switch'
+import React, { useContext } from 'react'
+import styled, { ThemeContext } from 'styled-components'
+import Switch from 'react-switch'
 
 export const Container = styled.div ` 
     display: flex;
@@ -10,11 +10,9 @@ export const Container = styled.div `
     align-items: center;
     justify-content: space-around;
 `
-/*
 export const StyledSwitch = styled.span `
     margin: 1.75rem 2rem;
 `
-*/
 
 function Title() {
     return(
@@ -51,8 +49,15 @@ const getMenu = menuListen.map((item) =>
     </li>
 )
 
+interface Props {
+    toggleTheme(): void
+}
 
-export default function Header() {
+
+const Header: React.FC<Props>=({ toggleTheme }) => {
+
+    const { colors, theme } = useContext(ThemeContext)
+    
     return (
         <Container> 
             <React.Fragment>
@@ -60,7 +65,7 @@ export default function Header() {
                 <ul>
                     {getMenu}
                 </ul>
-                {/*
+                
                 <StyledSwitch>
                 <Switch
                     onChange={ toggleTheme }
@@ -74,8 +79,10 @@ export default function Header() {
                     onColor={ colors.txt }
                     />
                 </StyledSwitch>
-                */}
+                
             </React.Fragment>   
         </Container> 
    )
 }
+
+export default Header
