@@ -54,7 +54,7 @@ interface Props {
 }
 
 
-const Header: React.FC<Props>=({ toggleTheme }) => {
+export default function Header({ toggleTheme }: Props) {
 
     const { colors, theme } = useContext(ThemeContext)
     
@@ -85,4 +85,3 @@ const Header: React.FC<Props>=({ toggleTheme }) => {
    )
 }
 
-export default Header
