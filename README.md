@@ -22,6 +22,20 @@
 
     https://blog.agney.dev/styled-components-&-typescript/
 
-    Não consigui fazer a troca de temas... 
-    Posteriormente quando atualizar o site posso implementar o dark mode/light mode e um form no lugar do e-mail direto.
-    por enquanto é isso.
+    Torca de temas feita! Vi muito conteudo, mas dois vídeos se destacaram, um do Diego Fernandes da Rocketseat - na verdade a implemetação do meu código foi feita em cima desse - e outro video. Mudei certas coisa, não usei o localStorage, tive que jogar parte do código na página pages/Home.tsx - algo que foi implementado no App.tsx - o Header dei uns ajustes no Switch
+    e NÃO usei React.FC.
+
+    https://www.youtube.com/watch?v=vK0ka9eTdA0&app=desktop
+
+    https://fettblog.eu/typescript-react-why-i-dont-use-react-fc/
+
+    https://github.com/rocketseat-content/youtube-code-drop-theme-switcher
+
+    https://github.com/matheusPinheiroP/dark-mode
+
+
+    Meta Tags inseridas e adicionado no https://search.google.com/search-console/welcome
+
+    https://www.codigofonte.com.br/artigos/meta-tags-o-que-sao-e-como-utiliza-las
+
+    https://www.youtube.com/watch?v=hMwRcamEVk8
