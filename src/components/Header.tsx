@@ -2,8 +2,6 @@ import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Switch from 'react-switch'
 
-import logo from '../assets/img/logo_rwd-002.png'
-
 export const Container = styled.div ` 
     display: flex;
     flex-direction: row;
@@ -13,19 +11,13 @@ export const Container = styled.div `
     justify-content: space-around;
 `
 
-export const Image = styled.img `
-    margin: 0;
-    padding: 0;
-    width: 300px;
-    height: 130px;
-`
 export const StyledSwitch = styled.span `
     margin: 1.75rem 2rem;
 `
 
 function Title() {
     return(
-       <Image src={logo} alt="auto" />
+      <h1>RodrigoWebDev</h1>
     )
 }
 

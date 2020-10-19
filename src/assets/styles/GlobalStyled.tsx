@@ -20,6 +20,8 @@ const GlobalStyled = createGlobalStyle `
         font-weight: 385;
         margin: 0.75rem 1.5rem 1.25rem 1.5rem;
         color: rgb(173, 53, 28);
+        cursor: pointer;
+        
         @media(max-width: 425px) {
             margin: 0.75rem 1.5rem 1.25rem 1.5rem;
         }
